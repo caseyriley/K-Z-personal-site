@@ -8,29 +8,50 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 #home-nav {
   width: 100vw;
-  height: 50px;
+  min-height: 50px;
   background-color: whitesmoke;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid pink;
 }
 #home-nav a{
   text-decoration: none;
   color: rgb(68, 68, 68);
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
+  position: relative;
 }
-
+#hom-main {
+  /* margin-top: 50px; */
+  height: calc(100vh -50px);
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#katrinaPro1 {
+  width: 500px;
+  height: auto;
+  margin: 100px 0px 0px 0px;
+  
+}
 .parallax {
   perspective: 1px;
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgb(255, 225, 0);
+  /* background-color: rgb(255, 225, 0); */
   font-size: 80px;
 
 }
@@ -42,6 +63,7 @@ body {
   left: 0;
   background-color: blue;
   -webkit-transform-origin-x: 100%;
+  margin: 50px 0px 0px 0px;
 
 }
 .parallax__layer--base {
@@ -54,7 +76,7 @@ body {
   transform: translateZ(-1px);
   background-color: darkcyan;
   height: 200px;
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-10px) scale(9);
 }
 .parallax__group {
   position: relative;
