@@ -29,7 +29,7 @@ body {
   font-weight: 700;
   position: relative;
 }
-#hom-main {
+#home-main {
   /* margin-top: 50px; */
   height: calc(100vh -50px);
   width: 100%;
@@ -39,12 +39,14 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
-#forest-myst-gif {
-  height: auto !important;
-  width: 100% !important;
-  position: fixed !important;
-  top: 50px !important;
-  left: 0px !important;
+.slow-c {
+  width: 100vw;
+  height: auto;
+  margin: 150px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .katrina-top {
   width: 100vw;
@@ -93,6 +95,18 @@ body {
   margin: 0px 0px 0px 0px;
   border-radius: 100%;
 }
+#women-nepal{
+  height: 50vh;
+  width: 300vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 100px 0px 0px 0px;  
+}
+#women-nepal img{
+  height: 50vh;
+  width: auto;
+}
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -101,6 +115,7 @@ body {
   overflow-y: auto;
   /* background-color: rgb(255, 225, 0); */
   font-size: 80px;
+  margin: 0px 0px 0px 0px;
 
 }
 .parallax__layer {
