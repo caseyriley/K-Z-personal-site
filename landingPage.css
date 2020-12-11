@@ -20,7 +20,7 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  border: 1px solid pink;
+
 }
 #home-nav a{
   text-decoration: none;
@@ -50,10 +50,42 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-image: url("./images/fernGreenForestLush.jpg") ;
+  background-size: cover;
+  opacity: .7; */
+}
+.katrina-top::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/fernGreenForestLush.jpg") ;
+  background-size: cover;
+  /* opacity: .2; */
+  filter: brightness(20%);
+  z-index: -1;
+}
+#katrina-top__text {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: teal;
+}
+#katrina-top__h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+.katrina-top P {
+  width: 45vw;
+  font-size: 17px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  margin: 20 0px 0px 0px;
 }
 #katrinaPro1 {
   width: 300px;
