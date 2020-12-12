@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
   const slideOptions = {
     threshold: .0,
-    rootMargin: "300px",
+    rootMargin: "400px",
   }
 
    const slideOnScroll = new IntersectionObserver

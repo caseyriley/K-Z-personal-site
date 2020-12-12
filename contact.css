@@ -1,0 +1,23 @@
+#contact-top {
+  width: 100%;
+  height: auto;
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-top__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+#contact-top__text span {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 22px;
+  margin: 0px 0px 20px 0px;
+}
+.aranya-bee-on-globe {
+  height: 40vh;
+}

@@ -1,0 +1,26 @@
+#services-main {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#services-h1 {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+#service-top-img {
+  width: 70%;
+}
+.sevices-text-c {
+  font-family: 'M PLUS 1p', sans-serif;
+  width: 70%;
+}
+#sevices-bottom-space {
+  height: 100px;
+  width: 100%;
+
+}
